@@ -1,0 +1,194 @@
+.Main{
+    width: 850px;
+    height: 100%;  
+   margin: 0 auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+   
+}
+.Left-Container{
+width: 55%;
+height: 100%;
+
+display: inline-block;
+
+
+}
+.Right-Container{
+    width: 42%;
+    height: 100%;
+   background-color: #FAF9F9;
+    display: inline-block;
+margin-left: 20px;
+
+
+}
+.Main-contend-Top-Friends-list{ 
+    width: 100%;
+    height: 115px;
+    border: 1px solid rgba(221, 221, 221, 0.925);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+  
+    align-items: center;
+}
+.Friends-Profail{
+    width: 57px;
+    height:auto;
+    border-radius: 150px;
+
+ transform: translateX(+4.5px);
+    /*padding: 2px;
+    border: 2px  ;
+    background: linear-gradient(81.84deg, #ffa200 -9.4%, #ffd500 -9.4%, #be33ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    -webkit-background-clip: border;
+    border-color: transparent;*/
+    
+}
+.Profile-parents{
+    display: inline;
+   margin-left: 15px;
+}
+.Profile-name{
+    font-size: 12px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    margin-top: 5px;
+}
+.stupit{
+   z-index: 5;
+   position: absolute;
+   transform: translateY(-4.4px);
+}
+.Right-user-img{
+    width: 45px;
+   border-radius: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.Right-container-child{
+display: inline-block;
+}
+.User2-Name-Right{
+color: grey;
+}
+.User-Name-Right{
+   cursor: pointer;
+    }
+.Rightname{
+display: inline-block;
+transform: translateY(-13px);
+width: 98px;
+font-weight: 500;
+font-size: 14px;
+ }
+ .Switch1{
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #0094f6dc;
+ }
+ .Switch-container{
+    display: inline-block;
+    cursor: pointer;
+ }
+ .Contrones-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+ }
+ .Suggestions{
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+    cursor: pointer;
+ }
+ .SwwAll-container{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ margin-top: 8px;
+margin-bottom: 15px;
+ }
+ .See-All{
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+ }
+ .Follow-list-img{
+    width: 34px;
+    height: auto;
+    border-radius: 50px;
+    
+ }
+ .Folow-list{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;
+
+ }
+ .Follow-Name{
+    margin-left: 11px; 
+   font-weight: bold;
+   font-size: 14px;
+transform: translateY(0px);
+
+  
+ }
+ .follow-container{
+   
+    display: flex;
+    align-items: center;
+   
+ }
+ .follow-popular{
+    font-size: 12px;
+    font-weight: 480;
+ }
+ .Follow-margin{
+    margin-top: 10px;
+ }
+ .Right-margin{
+    margin-top: 40px;
+ }
+ .blue{
+    color: white;
+    padding: 2px 3px;
+    background-color:  rgb(0, 128, 255);
+    border-radius: 10px;
+    font-size: 7px;
+ }
+ .about{        
+    margin-top: 20px;
+    font-size: 12px; 
+    color: rgb(206, 206, 206);
+ }
+ .copy-right{
+    width: 100%;
+    margin-top: 20px;
+ }
+ .Copy-FRom-METa{
+    font-size: 13px;
+    color: rgb(206, 206, 206);
+ }
+ .about-container{
+    margin-top: 27px;
+
+ }
+ .link{
+color: inherit;
+text-decoration: none;
+ }
+ .link:hover{
+    text-decoration: underline;
+ }
+ #root{
+  width: 100vw;  
+   
+ }

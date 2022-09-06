@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background-color: #faf9f9;
+
+}
+
+.Header{
+width: 100%;
+height: 60px;
+border-bottom: 0.5px solid #DBDBDB;
+background-color: #ffffff;
+position: sticky;
+top: 0px;
+z-index: 100;
+}
+.Header-Cointaer{
+  max-width: 950px;
+  height: 60px;
+  margin: 0 auto;
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.i-img{
+  width: 110px;
+  height: auto;
+  cursor: pointer;
+}
+.angle-down{
+  width: 17px;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+.Header-inpt{
+  border: none;
+ outline: none;
+ background-color: #EFEFEF;
+}
+.search-icon{
+  color: #989999;
+}
+.Header-Logo{
+  width: 32px;
+  height: auto;  
+  margin-right: 10px;
+  transform: translateY(+2px);
+  cursor: pointer;
+}
+.input-Container{
+display: inline-block;
+width: 235px;
+background-color:  #EFEFEF;
+border-radius: 8px;
+padding: 8px 17px;
+margin-right: 68px;
+display: inline-block;
+}
+.User-logo{
+  width: 26px;
+  border-radius: 100px;
+  
+}
+.Angle-down-Container{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  transform: translateY(+4px);
+}
+.follow-alrt{
+  width: 150px;
+  height: 70px; 
+ display: none;
+}
+.inline-block{
+  display: inline-block;
+}
+.Add-img{
+  width: 20px;
+margin-right: 8px;
+transform: translateY(+4px);
+}
+.Add3{
+  width: 105px;
+  background-color:#FFFFFF;
+padding: 5px 15px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border: 1px solid rgba(220, 220, 220, 0.444);
+border-bottom: 0px;
+}
+.Add{
+  width: 105px;
+  background-color:#FFFFFF;
+  padding: 8px 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;  
+  border: 1px solid rgba(220, 220, 220, 0.444);
+border-top: 0px;  
+}
+.Add3:hover{
+  background-color:#FAFAFA;
+
+}
+.Add:hover{
+  background-color:#FAFAFA;
+}
+.Add-Move{
+ z-index: 2;
+ position: relative;
+left: 480px;
+top: -7px;
+font-size: 14px;
+}
+.Header-Logo-Container{
+  display: inline-block;
+}
+.input-Hader-Logo-Container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+
+}
+
+@media(max-width : 735px) {
+  .input-Container{
+    margin-right: 0px;
+  }
+
+
+
+}

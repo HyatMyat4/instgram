@@ -1,0 +1,290 @@
+.Post{
+width: 100%;
+height: auto;
+border: 1px solid rgba(221, 221, 221, 0.925);
+border-radius: 10px;
+margin-top: 20px;
+
+}
+.Post-hader{
+width: 100%;
+height: 70px;
+background-color: #FFFFFF;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.Post-Profail{
+    width: 33px;
+    height: auto;
+   border-radius: 60px;  
+   padding:3px;
+  transform: translateX(-40.5px);
+ 
+}
+.Post-Boder{
+   margin-left: 10px;
+   transform: translateY(+1.7px);
+}
+.Post-Profail-Name{
+    display: inline-block;
+    transform: translateX(-30px);
+   
+}
+.Profail-name-post{
+    transform: translateY(-13px);
+font-weight: 500;
+font-size: 14px;
+color: #3c3c3c;
+
+}
+.Offical{
+    font-size: 13px;
+    color: #626262;
+}
+.ddd{
+width: 20px;    
+height: auto;
+margin-right: 17px;
+}
+.First-footer{
+    width: 100%;
+    height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.First-footer-font{
+    font-size: 23px;
+    margin: 12px 8px 12px 15px;
+}
+.First-footer-left{
+display: inline-block;
+
+}
+.First-footer-Right{
+    display: inline-block;  
+    font-size: 23px;  
+   
+}
+.Save-icon{
+    margin-right: 14px;
+}
+.like-count{
+font-size: 14px;
+font-weight: bold;
+margin: 0px 10px;
+margin-bottom: 10px;
+color: rgb(9, 9, 9);
+}
+.Para-Name{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 3px;
+  
+}
+.Read-more{
+    font-size: 13px;
+    
+    font-weight: 500;
+}
+.All-commect{
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.Date-ago{
+    font-size: 11px;
+    margin-left: 10px;
+    color: rgb(138, 138, 138);
+  
+   
+}
+.p-tag{
+    margin-left: 10px;
+    
+}
+.Second-footer{
+    border-bottom: 1px solid  rgb(223, 223, 223);
+    padding-bottom: 10px;
+}
+.Commect-footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+  
+}
+.Post-img{
+ overflow-x: scroll;
+    user-select: none;
+}
+
+.smile-icon{
+    font-size: 25px;
+    margin: 0px 13px;
+}
+.Commect-holder{
+    font-size: 14.3px;
+    color: rgb(138, 138, 138);
+}
+.Post-bt{
+    font-size: 14px;
+    font-weight: bold;
+    color: #B3DFFC;
+    margin-right: 13px;
+    
+}
+.Commect-left{
+display: inline-block;
+width: 85%;
+
+}
+.Commect-Right{
+    display: inline-block;
+}
+.input-commect{
+  width: 85%;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: #FAF9F9;
+
+  
+}
+#root{
+    overflow-x: hidden;
+}
+@media(maX-width: 1000px ) {
+    .Contrones-container{
+        display: none;
+      }
+      .Right-footer{
+          display: none;
+      }
+      .SwwAll-container{
+          display: none;
+      }
+
+   .Right-Container{
+    width: 0px;
+   }
+.Main{
+    width: 450px;   
+
+}
+.Left-Container{
+    width: 100%;
+  
+   }
+   .Post-img{
+    width: 100%;
+}
+.post-img-width{
+    width: 100%;
+}
+
+.input-commect{
+    width: 83%;
+   
+}
+}
+@media(maX-width: 500px ) {
+    .Contrones-container{
+        display: none;
+      }
+      .Right-footer{
+          display: none;
+      }
+      .SwwAll-container{
+          display: none;
+      }
+   .Main{
+  width: 100%;
+
+
+   
+   }
+   .Left-Container{
+    width: 100%;
+
+
+   }
+   .Right-Container{
+    width: 0px;
+    position: absolute;
+   }
+   .Post-img{
+    width: 100%;
+}
+.post-img-width{
+    width: 100%;
+}
+.Header-Cointaer{
+    min-width: 400px;
+
+}
+.Header-Logo-Container{
+    font-size: 33px;
+}
+}
+@media(maX-width: 638px ) {
+    .input-Container{
+        display: none;
+    }
+}
+@media(maX-width: 469px ) {
+    .i-img{
+    width: 130px;
+    }
+    .Header-Logo{
+    width: 37px;
+
+    }
+    .User-logo{
+    width: 30px;
+    margin-left: 30px ;
+    }
+    .smile-icon{ 
+              
+        margin: 0px 7px;
+    }
+}
+@media(maX-width: 449px ) {
+    .i-img{
+    width: 110px;
+    }
+    .Header-Logo{
+        width: 34px;
+
+    }
+    .User-logo{
+    width: 26px;
+    margin-left: 0px ;
+    }
+.Commect-footer{
+    min-width: 257px;
+}
+.Post-hader{
+    min-width: 257px;
+}
+.First-footer{
+    min-width: 257px;
+}
+.Second-footer{
+    min-width: 257px;
+}
+
+}@media(max-width : 300px) {
+    .Commect-footer  {
+        min-width: 300px;
+       
+    } 
+  
+  }
